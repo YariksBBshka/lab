@@ -1,0 +1,8 @@
+firstPointX = float(input())
+firstPointY = float(input())
+secondPointX = float(input())
+secondPointY = float(input())
+length = abs(max(firstPointX, secondPointX) - min(firstPointX, secondPointX))
+width = abs(max(firstPointY, secondPointY) - min(firstPointY, secondPointY))
+print("%.2f" % (length * width))
+print("%.2f" % (2 * (length + width)))
