@@ -23,6 +23,6 @@ while True:
         balance += incomesum
     balance -= requiredsum
     if balance >= 0:
-        print("Going to " + country)
+        print("Going to %s!" % country)
 
 

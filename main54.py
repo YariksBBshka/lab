@@ -9,9 +9,9 @@ while True:
         break
     enterednum = int(command)
     if enterednum < 0:
-        print("Number is negative")
+        print("Number is negative.")
     elif enterednum == 0:
-        print("Number is zero")
+        print("Number is zero.")
     elif enterednum == 1:
         print("Number is neither prime nor non-prime")
     else:
