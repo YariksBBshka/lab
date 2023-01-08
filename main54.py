@@ -15,7 +15,7 @@ while True:
     elif enterednum == 1:
         print("Number is neither prime nor non-prime")
     else:
-        for d in range(1, 100000000, 1):
+        for d in range(1, enterednum + 1, 1):
             if enterednum % d == 0:
                 count += 1
         if count == 2:

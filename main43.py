@@ -17,7 +17,7 @@ elif n > 0:
         dif = abs(sumofpair2 - sumofpair)
         if (dif > maxdif):
             maxdif = dif
-            sumofpair = sumofpair2
+        sumofpair = sumofpair2
         count += 1
     if maxdif == 0:
         print("Yes, value = %.f" % sumofpair)
